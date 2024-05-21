@@ -4,10 +4,13 @@ public class Rectif extends MyFrame {
 		int x=30;
 		setColor(0,128,0);
 		int i;
+		int y=30;
 		for(i=0; i<10; i++) {
 			
-				fillRect(x,x,10,100);
+				fillRect(x,100,10,y);
 			x+=30;
+			y+=30;
+			
 		
 		}
 	}
